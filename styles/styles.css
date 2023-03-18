@@ -31,11 +31,14 @@ img {
 }
 
 .header {
+  width: 1440;
+
   display: flex;
   justify-content: space-between;
 }
 
 .header-nav {
+  display: flex;
 }
 
 .header-nav-list {
