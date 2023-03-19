@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,36 +23,40 @@
     <!-- Шапка сайту -->
 
     <header class="header">
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li class="header-nav-list-item">
-            <a class="header-nav-link" href="">Shop</a>
-          </li>
+      <div class="container">
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">
+              <a class="header-nav-link" href="">Shop</a>
+            </li>
+  
+            <li class="header-nav-list-item">
+              <a class="header-nav-link" href="">Explore</a>
+            </li>
+          </ul>
+        </nav>
+  
+        <img src="./images/logo.svg" alt="logo" />
 
-          <li class="header-nav-list-item">
-            <a class="header-nav-link" href="">Explore</a>
-          </li>
-        </ul>
-      </nav>
-     
-      <img src="./images/logo.svg" alt="logo" />
-
-      <a class="header-nav-link" href="">My cart</a>
+        <a class="header-nav-link" href="">My cart</a>
+      </div>
+      
     </header>
     <main>
       <!-- блок герой  -->
-
-      <setion class="section-desk">
-        <h1 class="desk-title">The Desk Shelf System</h1>
-        <p class="desk-text">Available in Walnut or Maple</p>
-        <a class="desk-link" href="">learn more</a>
-        <img class="img-desk" src="./images/Frame.jpg" alt="frame" />
-      </setion>
-
+      <div class="container">
+      <section class="section-desk">       
+          <h1 class="desk-title">The Desk Shelf System</h1>
+          <p class="desk-text">Available in Walnut or Maple</p>
+          <a class="desk-link" href="">learn more</a>     
+      </section>
+    </div>
       <!-- секція дизайну  -->
-
+      
       <section class="section-desing">
+       <div class="container">
         <h2 class="desing-title">Design Inspires</h2>
+        <a class="started-link" href="">GET STARTED</a>
         <p class="desing-text">
           Build your dream workspace, so you can get your best work done.
         </p>
@@ -70,54 +74,76 @@
             <a class="desing-link" href="">learn more</a>
           </li>
         </ul>
-      </section>
 
+       </div>
+      </section>
+    
       <!-- секція продукти -->
+      <div class="container">
+        <section class="products">
+          <h2 class="products-title">Featured Products</h2>
+          <p class="products-text">See What’s Trending Right Now</p>
 
-      <section class="products">
-        <h2 class="products-title">Featured Products</h2>
-        <p class="products-text">See What’s Trending Right Now</p>
+          <ul class="products-list">
+            <li class="products-item">
+              <img
+                class="products-img"
+                src="./images/product1.jpg"
+                alt="asd1"
+              />
+              <p class="products-text">Walnut MagSafe Stand</p>
+              <p class="products-price">$120</p>
+            </li>
 
-        <ul class="products-list">
-          <li class="products-item">
-            <img class="products-img" src="./images/product1.jpg" alt="asd1" />
-            <p class="products-text">Walnut MagSafe Stand</p>
-            <p class="products-price">$120</p>
-          </li>
+            <li class="products-item">
+              <img src="./images/product2.jpg" alt="asd2" />
+              <p class="products-text">Walnut Laptop Riser</p>
+              <p class="products-price">$150</p>
+            </li>
 
-          <li class="products-item">
-            <img src="./images/product2.jpg" alt="asd2" />
-            <p class="products-text">Walnut Laptop Riser</p>
-            <p class="products-price">$150</p>
-          </li>
+            <li class="products-item">
+              <img
+                class="products-img"
+                src="./images/product3.jpg"
+                alt="asd3"
+              />
+              <p class="products-text">Walnut iPad Stand</p>
+              <p class="products-price">$80</p>
+            </li>
 
-          <li class="products-item">
-            <img class="products-img" src="./images/product3.jpg" alt="asd3" />
-            <p class="products-text">Walnut iPad Stand</p>
-            <p class="products-price">$80</p>
-          </li>
-
-          <li class="products-item">
-            <img class="products-img" src="./images/product4.jpg" alt="asd4" />
-            <p class="products-text">Walnut Monitor Stand</p>
-            <p class="products-price">$100</p>
-          </li>
-        </ul>
-      </section>
+            <li class="products-item">
+              <img
+                class="products-img"
+                src="./images/product4.jpg"
+                alt="asd4"
+              />
+              <p class="products-text">Walnut Monitor Stand</p>
+              <p class="products-price">$100</p>
+            </li>
+          </ul>
+        </section>
+      </div>
 
       <!-- блок Home Office Inspiration -->
 
-      <h2 class="home-title">Home Office Inspiration</h2>
-      <p class="home-text">
-        Working from home can be a challengesee some creative solutions to get
-        it just right.
-      </p>
-      <a class="home-link" href="">learn more</a>
-      <img class="home-img" src="./images/stil.jpg" alt="asd" />
+    <section>
+<div class="container">
+  <h2 class="home-title">Home Office Inspiration</h2>
+  <p class="home-text">
+    Working from home can be a challengesee some creative solutions to get
+    it just right.
+  </p>
+  <a class="home-link" href="">learn more</a>
+  <img class="home-img" src="./images/stil.jpg" alt="asd" />
+
+</div>
+    </section>
 
       <!-- блок Made The Hard Way -->
 
-      <h3 class="made-title">Made The Hard Way</h3>
+      <section>
+        <div class="container">
+          <h3 class="made-title">Made The Hard Way</h3>
       <p class="made-text">
         Our signature craftsmanship has been honed over a decade of
         manufacturing innovation here in Portland, Oregon. We combine the skills
@@ -126,168 +152,185 @@
       </p>
       <img class="made-img" src="./images/image_2.jpg" alt="asd" />
 
+        </div>
+      </section>
+
       <!-- блок Make Work Meaningful -->
 
-      <h3 class="work-title">Make Work Meaningful</h3>
-      <p class="work-text">
-        We're here because we believe that your work deserves the best. A team
-        that loves working together is the magic that makes it all happen.
-      </p>
-      <ul class="work-list">
-        <li class="work-item">
-          <img src="./images/1.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/2.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/3.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/4.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/5.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/6.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/7.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/8.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/8.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/9.jpg" alt="asd" />
-        </li>
-        <li class="work-item">
-          <img class="work-img" src="./images/10.jpg" alt="asd" />
-        </li>
-
-        <li>
-          <img class="work-img" src="./images/11.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/12.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/13.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/14.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/15.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/16.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/17.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/18.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/19.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/20.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/21.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/22.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/23.jpg" alt="asd" />
-        </li>
-
-        <li class="work-item">
-          <img class="work-img" src="./images/24.jpg" alt="asd" />
-        </li>
-      </ul>
+     <section>
+      <div class="container">
+        <h3 class="work-title">Make Work Meaningful</h3>
+        <p class="work-text">
+          We're here because we believe that your work deserves the best. A team
+          that loves working together is the magic that makes it all happen.
+        </p>
+        <ul class="work-list">
+          <li class="work-item">
+            <img class="work-img" src="./images/1.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/2.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/3.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/4.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/5.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/6.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/7.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/8.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/8.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/9.jpg" alt="asd" />
+          </li>
+          <li class="work-item">
+            <img class="work-img" src="./images/10.jpg" alt="asd" />
+          </li>
+  
+          <li>
+            <img class="work-img" src="./images/11.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/12.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/13.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/14.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/15.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/16.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/17.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/18.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/19.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/20.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/21.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/22.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/23.jpg" alt="asd" />
+          </li>
+  
+          <li class="work-item">
+            <img class="work-img" src="./images/24.jpg" alt="asd" />
+          </li>
+        </ul>
+      </div>
+     </section>
 
       <!-- блок We Hope You'll Join Us -->
+<section>
+  <div class="container">
+    
+    <h3 class="hope-title">We Hope You'll Join Us</h3>
+    <p class="hope-text">READ MORE ABOUT OUR STORY</p>
+    <img class="hope-img" src="./images/Rectangle.jpg" alt="asd" />
+    <h3 class="hope-title">Design Inspires</h3>
+    <p class="hope-text">
+      Build your dream workspace, so you can get your best work done.
+    </p>
+  </div>
+</section>
 
-      <h3 class="hope-title">We Hope You'll Join Us</h3>
-      <p class="hope-text">READ MORE ABOUT OUR STORY</p>
-      <img class="hope-img" src="./images/Rectangle.jpg" alt="asd" />
-      <h3 class="hope-title">Design Inspires</h3>
-      <p class="hope-text">
-        Build your dream workspace, so you can get your best work done.
-      </p>
     </main>
 
     <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li class="footer-item"><a class="footer-link" href="">Shop</a></li>
+  
+          <li class="footer-item"><a class="footer-link" href="">About</a></li>
+  
+          <li class="footer-item"><a class="footer-link" href="">Support</a></li>
+  
+          <li class="footer-item">
+            <a class="footer-link" href="">COVID-19 Info</a>
+          </li>
+  
+          <li class="footer-item">
+            <a class="footer-link" href="">Order Status</a>
+          </li>
+  
+          <li class="footer-item">
+            <a class="footer-link" href="">Corporate Sales</a>
+          </li>
+        </ul>
+  
+        <h4 class="footer-subtitle">Newsletter Signup</h4>
+        <p class="footer-text">
+          Sign up to our Newsletter to hear about new product releases, learn
+          about our design process, and everything else going on behind the scenes
+          at Grovemade.
+        </p>
+        <ul class="footer-meta">
+          <li class="footer-item">
+            <a class="footer-link" href="">©2020 Grovemade</a>
+          </li>
+  
+          <li class="footer-item">
+            <a class="footer-link" href="">Terms & Conditions</a>
+          </li>
+  
+          <li class="footer-item">
+            <a class="footer-link" href="">Privacy Policy</a>
+          </li>
+  
+          <li class="footer-item">
+            <a class="footer-link" href="">Site by Department</a>
+          </li>
+        </ul>
 
-      <ul class="footer-list">
-
-        <li class="footer-item"><a class="footer-link" href="">Shop</a>
-        </li>
-
-        <li class="footer-item"><a class="footer-link" href="">About</a>
-        </li>
-
-        <li class="footer-item"><a class="footer-link" href="">Support</a>
-        </li>
-
-        <li class="footer-item"><a class="footer-link" href="">COVID-19 Info</a>
-        </li>
-
-        <li class="footer-item"><a class="footer-link" href="">Order Status</a>
-        </li>
-        
-        <li class="footer-item"><a class="footer-link" href="">Corporate Sales</a>
-        </li>
-      </ul>
+      </div>
       
-      <h4 class="footer-subtitle">Newsletter Signup</h4>
-      <p class="footer-text">
-        Sign up to our Newsletter to hear about new product releases, learn
-        about our design process, and everything else going on behind the scenes
-        at Grovemade.
-      </p>
-      <ul class="footer-meta">
-        
-        <li class="footer-item"><a class="footer-link" href="">©2020 Grovemade</a>
-        </li>
-
-        <li class="footer-item"><a class="footer-link" href="">Terms & Conditions</a>
-        </li>
-
-        <li class="footer-item"><a class="footer-link" href="">Privacy Policy</a>
-        </li>
-
-        <li class="footer-item"><a class="footer-link" href="">Site by Department</a>
-        </li>
-      </ul>
     </footer>
   </body>
 </html>

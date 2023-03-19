@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: 400;
   font-size: 16px;
+  color: black;
 }
 
 h1,
@@ -30,24 +31,150 @@ img {
   max-width: 100%;
 }
 
-.header {
-  width: 1440;
-
-  display: flex;
-  justify-content: space-between;
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 25px 38px;
 }
 
 .header-nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav-list {
   display: flex;
 }
 
-.header-nav-list-item {
+.header-nav-list-item:not(:last-child) {
+  margin-right: 25px;
 }
 
+.header-nav-link {
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #000000;
+}
 .header-nav-item:not(:last-child) {
   margin-right: 25px;
+}
+
+/* блок герой */
+
+.section-deks {
+  max-width: 100%;
+  height: 504px;
+  margin: 0 auto;
+
+  background-color: #a0a0a0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desk-title {
+  font-size: 43px;
+  line-height: 46px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.desk-text {
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.desk-link {
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.section-desk {
+  background-image: url(../images/Frame.jpg);
+  background-image: url(../images/Frame.jpg);
+  background-image: url(../images/Frame.jpg);
+  height: 504px;
+}
+
+/* Inspires */
+
+.desing-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+.desing-text {
+  font-size: 43px;
+  line-height: 58px;
+  margin-bottom: 23px;
+}
+
+.started-link {
+  margin-bottom: 80px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.desing-list {
+  display: flex;
+}
+
+.desing-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.desing-item {
+  text-align: center;
+}
+
+.desing-img {
+  margin-bottom: 50px;
+}
+
+.desing-title {
+  font-size: 27px;
+  line-height: 30px;
+  margin-bottom: 23px;
+}
+
+.desing-link {
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.products-section {
+  margin-bottom: 100px;
+}
+
+.products-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-img {
+  margin-bottom: 20px;
+}
+
+.products-price {
+  font-size: 12px;
+  line-height: 21px;
+  color: #a0a0a0a0;
+  font-weight: 400;
 }
