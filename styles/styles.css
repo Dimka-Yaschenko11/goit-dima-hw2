@@ -37,6 +37,11 @@ img {
   padding: 25px 38px;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-nav {
   display: flex;
   justify-content: space-between;
@@ -47,7 +52,7 @@ img {
   display: flex;
 }
 
-.header-nav-list-item:not(:last-child) {
+.header-nav-item:not(:last-child) {
   margin-right: 25px;
 }
 
@@ -81,6 +86,7 @@ img {
 }
 
 .desk-title {
+  text-align: center;
   font-size: 43px;
   line-height: 46px;
   color: #ffffff;
@@ -88,6 +94,7 @@ img {
 }
 
 .desk-text {
+  text-align: center;
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
@@ -95,6 +102,8 @@ img {
 }
 
 .desk-link {
+  display: block;
+ text-align: center;
   font-size: 13px;
   line-height: 15px;
   color: #ffffff;
@@ -112,22 +121,31 @@ img {
 .desing-title {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 130px;
+
+  margin-bottom: 130px; 
+  font-size: 43px;
+line-height: 58px;
+text-align: center;
+color: #000000;
 }
 
 .desing-text {
-  font-size: 43px;
-  line-height: 58px;
-  margin-bottom: 23px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: #A0A0A0;
 }
 
 .started-link {
+  display: block;
+  text-align: center;
   margin-bottom: 80px;
+  font-family: 'Roboto';
   font-size: 13px;
   line-height: 21px;
   color: #000000;
+  letter-spacing: 1.4px;
 }
 
 .desing-list {
@@ -175,15 +193,6 @@ img {
   text-align: center;
 }
 
-.products-text {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: 0.8px;
-  color: #a0a0a0;
-  margin-bottom: 53px;
-  text-align: center;
-}
 .products-list {
   display: flex;
   justify-content: space-between;
@@ -211,34 +220,65 @@ img {
 }
 
 .section-hope {
-  width: 1340px;
-  height: 404px;
-  padding: 10px;
+  height: 504px;
   text-align: center;
-  background-color: #9aa881;
+ background-image: url(../images/stil.jpg);
+ margin-bottom: 116px;
 }
 
-.section-hope-title {
+.hope-title {
+  padding-top: 174px;
+ 
   font-size: 43px;
   text-align: center;
   color: #ffffff;
   line-height: 58px;
   font-weight: 400;
+  margin-bottom: 14px;
 }
 
-.section-hope-text {
-  margin: 38px;
-  font-weight: 400;
+.hope-text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 16px;
   text-align: center;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
 }
 
-.hope-img {
-  margin: 30px auto;
+.hope-link {
+  font-size: 13px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+color: #FFFFFF;
 }
 
-/* section make work */
+.made-title {
+  font-size: 34px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+margin-bottom: 23px;
+}
+
+.made-text {
+  font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.8px;
+color: #A0A0A0;
+margin-bottom: 23px;
+}
+
+.made-img {
+  margin: 0 auto;
+}
+
+.make-work {
+  margin-bottom: 124px;
+}
 
 .work-title {
   font-size: 34px;
@@ -266,4 +306,94 @@ img {
 
 .work-item {
   flex-basis: calc((100% - 125px )/6);
+}
+
+.home-title {
+  font-size: 34px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+margin-bottom: 23px;
+}
+
+.home-text {
+  font-size: 13px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+color: #000000;
+margin-bottom: 121px;
+}
+
+.section-inspires {
+ 
+  background: #9AA8B1;
+  height: 404px;
+  width: 1340px;
+  margin: 0 auto;
+}
+
+.inspires-img {
+  padding-top: 120px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.inspires-title {
+  font-size: 43px;
+line-height: 58px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.inspires-text {
+  font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.8px;
+color: #FFFFFF;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-item {
+  margin-bottom: 16px;
+}
+.footer-link {
+  font-size: 22px;
+line-height: 24px;
+color: #000000;
+}
+
+.footer-newsletter {
+  border-bottom: 1px solid #000000;
+}
+
+.footer-subtitle {
+  font-size: 22px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 23px;
+
+}
+
+.footer-text {
+  font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.8px;
+color: #A0A0A0;
+}
+
+.footer-meta {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.footer-item {
+  margin-right: 37px;
+
 }
